@@ -1,0 +1,234 @@
+*{
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+.baground{
+	background-image: url('../images/backround.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.header_title{
+	color: #FFF;
+text-align: center;
+font-size: 65px;
+font-weight: 700;
+padding: 170px 300px 20px;
+}
+.header_discription{
+	color: #FFF;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 30px;
+}
+.button{
+	text-align: center;
+	
+	border: 0;
+	padding-bottom: 175px;
+}
+.btn_primary{
+	border-radius: 5px;
+background: #FF5959;
+padding: 12px 16px ;
+text-align: center;
+color: #FFF;
+list-style:none ;
+}
+main{
+	width: 1130px;
+	margin: auto;
+
+}
+/*Donate Today*/
+.section_title{
+	color: #121212;
+text-align: center;
+font-size: 45px;
+font-weight: 700;
+margin-top: 130px;
+}
+.section_discription{
+	color: #707070;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+margin-top: 20px;
+margin-bottom: 50px;
+}
+.section_item_continer{
+	display: flex;
+	justify-content: center;
+	gap: 22px;
+}
+.item{
+	border-radius: 5px;
+    background: #FAFAFA;
+}
+.item_title{
+	color: #707070;
+text-align: center;
+font-size: 30px;
+font-weight: 700;
+padding: 43px 24px;
+}
+.Amount_area{
+	text-align: center;
+
+}
+.Amount{
+	color: #B3B3B3;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+}
+.button_Donate{
+	margin-top: 30px;
+	text-align: center;
+}
+/*Donate_Plan*/
+.Donate_Plan{
+	color: #121212;
+text-align: center;
+font-style: normal;
+font-weight: 700;
+margin-top: 130px;
+}
+.plan_discription{
+	color: #707070;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 50px;
+}
+.Donate_item{
+	display: flex;
+	gap: 24px;
+	
+}
+.Donate_cord_1{
+	border-radius: 5px;
+background: rgba(79, 157, 166, 0.10);
+padding: 63px 23px 54px;
+}
+.Donate_cord_2{
+border-radius: 5px;
+background: rgba(255, 89, 89, 0.10);
+padding: 63px 23px 54px;
+}
+.Donate_cord_3{
+	border-radius: 5px;
+background: #FFF4D6;
+padding: 63px 23px 54px;
+}
+.Donate_title{
+	color: #121212;
+font-size: 24px;
+font-weight: 600;
+padding-top: 31px;
+padding-bottom: 20px;
+}
+.cord_discription{
+	color: #707070;
+font-size: 16px;
+font-weight: 400;
+display: inline;
+}
+/*.lives_section*/
+.lives_section{
+	width: 985px;
+	
+
+}
+.lives{
+	display: flex;
+	margin-top: 110px;
+	
+
+
+}
+.lives_box{
+	padding-right: 94px;
+}
+.lives_title{
+color: #121212;
+font-size: 45px;
+font-weight: 700;
+margin-bottom: 20px;
+
+}
+.lives_discription{
+	color: #707070;
+font-size: 18px;
+font-weight: 400;
+padding-bottom: 20px;
+}
+/*.lives_btn{
+	border-radius: 5px;
+background: #FF5959;
+}*/
+.btn_primary_lives{
+	color: #FFF;
+font-size: 20px;
+font-weight: 600;
+padding:12px 16px ;
+border-radius: 5px;
+background: #FF5959;
+margin-bottom: 30px;
+
+}
+.lives_box_need{
+	padding-left: 94px;
+}
+.Updates{
+	color: #121212;
+text-align: center;
+font-size: 45px;
+font-weight: 700;
+padding-bottom: 20px;
+padding-top: 130px;
+}
+.updates_discription{
+	color: #707070;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+padding-bottom: 50px;
+}
+.updates_mail{
+	width: 809px;
+	background: #FFF4D6;
+	justify-content: center;
+	margin: auto;
+
+}
+.email{
+	padding: 76px 150px;
+	margin-bottom: 130px;
+}
+.email_box{
+	border-radius: 5px 0px 0px 5px;
+background: #D9D9D9;
+padding: 14px 100px 14px 17px;
+color: #AA9F9F;
+}
+.sub_up{
+	border-radius: 0px 5px 5px 0px;
+background: #FF5959;
+padding: 14px 30px;
+color: #FFF;
+
+}
+.footer_area{
+	padding-top: 42px;
+	padding-bottom: 42px;
+	background: var(--default-black, #0B0D17);
+}
+.image_area{
+	text-align: center;
+}
+.footer_p{
+	color: var(--text-gray-300, #D9DBE1);
+font-feature-settings: 'liga' off;
+padding-top: 32px;
+}
